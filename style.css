@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1F2937;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.header-logo {
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.header-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px;
+
+}
+
+/*Section one */
+
+
+.section-one {
+
+    padding: 50px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: normal;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.section-one-sing-up-content {
+    border: solid;
+}
+
+.text-main{
+    color:#f9faf8;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    color:#f9faf8;
+    font-weight: 800;
+}
+
+.section-one-sing-up-content p {
+    font-size: 18px;
+}
+
+.section-one-sing-up-content button {
+    border: none;
+    color:#f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.section-one-image-content {
+    border: #000000;
+    border-style: solid;
+
+    width: 1000px;
+    height: 300px;
+
+}
+
+/*Section two */
+
+.section-two {
+    background-color:#ffffff;
+}
+
+.section-two h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800; 
+}
+
+.section-two-images-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.image-div {
+    width: 90px;
+    height: 90px;
+    border: solid;
+    border-radius: 10px;
+}
+
+
+
+/*Section three */
+
+.section-three {
+    background-color:#E5E7EB;
+
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.phrase-motivation{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+/*section four */ 
+
+.last-call-singup {
+    background-color: #3882f6;
+}
