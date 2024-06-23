@@ -75,6 +75,10 @@ nav {
     justify-content: center;
 }
 
+.main-text button {
+ cursor: pointer;
+}
+
 .main-text .sing-up {
     padding-top: 2%;
     padding-left: 5%;
@@ -105,28 +109,29 @@ nav {
 .section-two{
     padding-left: 40%;
     padding-right: 40%;
+    
 }
 
-.section-two h2 {
-    padding-top: 10%;
+.main-textsec2 {
+    padding-top: 30px;
+    font-size: 20px;
 }
 
 .section-two-images-content {
-   
     display: flex;
     justify-content:center;
     justify-content: center;
 
-    padding-top: 15%;
-    padding-bottom: 25%;
+    padding-top: 20px;
+    padding-bottom: 30px;
 
     gap: 100px;
 }
 
 
 .image-div {
-    width: 180px;
-    height: 170px;
+    width: 170px;
+    height: 160px;
     border: solid;
     color: #3882f6;
     border-radius: 10px;
@@ -134,6 +139,7 @@ nav {
 
 .info p {
     text-align: center;
+    color: #1F2937;
 }
 
 
@@ -142,7 +148,11 @@ nav {
 .section-three {
     background-color:#E5E7EB;
 
-    padding: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
 
     display: flex;
     align-items: center;
@@ -151,44 +161,89 @@ nav {
 }
 
 .phrase-motivation{
+    padding: 0;
+    margin: 0;
+    color: #1F2937;
     font-style: italic;
-    font-weight: normal;
-    font-size: 36px;
+    font-weight: 100;
+    font-size: 30px;
 }
+
+.phrase-motivation .author {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-align: right;
+    font-size: 25px;
+}
+
+
 
 /*section four */ 
 
 .section-four {
     padding: 70px;
+    display: flex;
+    align-items:center;
+    justify-content: center
+
 }
 
 .last-call-singup {
+
     background-color: #3882f6;
     font-size: 18px;
     color: #E5E7EB;
     border-radius: 10px;
-    height: 80px;
-    padding: 15px;
+    width: 1000px;
 
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+   padding: 30px;
+
+    line-height: 0;
 }
 
-.last-call-singup .top-text {
-    font-weight: bold;
+.last-call-singup .text strong {
+    font-size: 20px;
 }
+
+.last-call-singup .text {
+    font-size: 15px;
+}
+
 
 .last-call-singup button {
-    border: 1px;
     border-color: #E5E7EB;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: 2px, solid;
     font-size: 18px;
     font-weight:700;
+    padding: 10px;
+    width: 130px;
+    height: 40px;
     background-color: #3882f6;
     color: #E5E7EB;
 
-    width: 100px;
-    height: 30px;
-    padding: 10px;
-    display: flex;
+    cursor: pointer;
+
+    display:flex;
     align-items: center;
     justify-content: center;
+}
+
+/* FOOTER */
+
+footer {
+
+    background-color: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+    font-size: 20px;
+
+    padding: 18px;
+
 }
